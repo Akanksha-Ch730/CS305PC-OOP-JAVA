@@ -24,7 +24,9 @@ import java.util.Scanner;
 							System.out.println("Unary - :"+(-a));
 							break;
 						case "~":
-							
+							System.out.println("Bitwise NOT (~a): " + (~a));
+                            break;
+
 						default:
 							System.out.println("Enter a correct Unary Operator :");
 						}
@@ -33,4 +35,5 @@ import java.util.Scanner;
 
 
 			
+
 				
