@@ -9,9 +9,10 @@ class Lab2P3{
 	var str = switch(op){
 		case "++" -> "HELLO";
 		case "--", "+", "~" -> "NOT GOOD";
-		case "Integer" -> 25;
+		case "Integer" -> "25";
 		default -> "SORRY";
 		};
 		System.out.println("Result is :"+str);
 	}
+
 }
